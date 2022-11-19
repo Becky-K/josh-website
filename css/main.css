@@ -1,0 +1,33 @@
+/*****MAIN*****/
+
+html {
+    background-color: #CFF5E7;
+}
+
+/*****HOME*****/
+
+/*****CONTACT*****/
+
+.div-1 {
+    background-color: aquamarine;
+    border: 10px solid black;
+    padding:20px;
+    height: 140px;
+    width: 140px;
+}
+
+.div-2 {
+    background-color: blueviolet;
+    border: 20px solid black;
+    height: 160px;
+    width: 160px;
+    margin-left: 200px;
+}
+
+.div-3 {
+    background-color: chocolate;
+    border: 10px solid black;
+    height: 190px;
+    width: 180px;  
+    margin-left: 400px;  
+}
