@@ -4,30 +4,40 @@ html {
     background-color: #CFF5E7;
 }
 
+body {
+    margin: 0;
+    text-align: center;
+}
+
 /*****HOME*****/
+
+h1 {
+    margin-top: 0;
+}
 
 /*****CONTACT*****/
 
 .div-1 {
-    background-color: aquamarine;
-    border: 10px solid black;
-    padding:20px;
-    height: 140px;
-    width: 140px;
+    background-color: red;
+    height: 100px;
+    width: 100px;  
+    position: absolute; 
+    left: 200px;
+    top: 200px;
 }
 
 .div-2 {
-    background-color: blueviolet;
-    border: 20px solid black;
-    height: 160px;
-    width: 160px;
-    margin-left: 200px;
+    background-color: blue;
+    height: 100px;
+    width: 100px; 
+    position: absolute;
+    left: 100px;
+    top: 100px;
 }
 
 .div-3 {
-    background-color: chocolate;
-    border: 10px solid black;
-    height: 190px;
-    width: 180px;  
-    margin-left: 400px;  
+    background-color: yellow;
+    height: 100px;
+    width: 100px; 
+    position: absolute;
 }
