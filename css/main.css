@@ -12,6 +12,8 @@ body {
 
 /*****HOME*****/
 
+/**** Top Section ****/
+
 .top-container {
     background-color: #CFF5E7;
     position: relative;
@@ -24,26 +26,19 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
     color: #66BFBF;
+    line-height: 2;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif; 
     font-size: 2.5rem;  
     margin-top: 0; 
+    margin-bottom: 10px;
     color: #66BFBF;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #11999e;
-}
-
-.profile-img {
-    width: 362.47px;
-    height: 200px;
-}
-
-a {
     color: #11999e;
 }
 
@@ -59,7 +54,129 @@ a {
     bottom: 300px;
 }
 
-/*****CONTACT*****/
+
+/**** Main Section ****/
+
+.profile-img {
+    width: 40%;
+}
+
+a {
+    color: #11999e;
+}
+
+.profile {
+    padding-top: 100px;
+    width: 50%;
+    margin: 0 auto 50px auto;
+    line-height: 2;
+}
+
+.profile p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.music-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilly-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.rule {
+    color: #cccccc;
+    width: 50%;
+    margin: 50px auto;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+/**** Footer ****/
+
+.contact-me {
+    width: 70%;
+    margin: 0 auto 50px auto;
+    line-height: 2;
+}
+
+.contact-me p {
+    width: 50%;
+    margin: 0 auto 50px auto;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+/**** Bottom ****/
+
+.bottom-container {
+    background-color: #66BFBF;
+    color: #eaf6f6;
+    height: 120px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.bottom-container a {
+    color: #11999e;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.center-link {
+    margin: 0 50px 0 50px;
+}
+
+.links {
+    width: 50%;
+    margin: 0 auto 40px auto;
+}
+
+
+
+
+/*****CONTACT PAGE*****/
 
 .div-1 {
     background-color: red;
@@ -85,3 +202,8 @@ a {
     width: 100px; 
     position: absolute;
 }
+
+
+
+
+
